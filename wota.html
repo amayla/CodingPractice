@@ -1,0 +1,83 @@
+<!-- <script>
+    document.write('Hello World')
+</script> -->
+
+<!-- memberi tahu browser versi html yang digunakan, HTML 5 -->
+<!-- untuk menulis komen, tekan CTRL + / -->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Hi There! </title>
+        <meta charset="UTF 8">
+        <!-- tag khusus kode javascript -->
+        <!-- Copy line script sebelumnya: press shift + Option +Arrow down -->
+        <script>
+        var nama = prompt('Silakan ketik nama kamu:');
+        console.log ('Nama : ' + nama)
+        var usia 
+        usia = parseInt(prompt('Masukkan usia kamu:'));
+        console.log('Usia : ' + usia)
+        var level 
+        level = parseInt(prompt('Dari 1-7, seberapa ngefans kah kamu dengan JKT 48?:'));
+        console.log('level:' + level)
+        while (level < 1 || level > 7){
+            level = parseInt(prompt('Input yang kamu masukan salah! \nDari 1-7, seberapa ngefans kah kamu dengan JKT 48?:'));
+        }
+        var status = prompt ('single, taken, atau complicated?').toLowerCase()
+       
+        switch (status){
+            case 'single':
+            alert ('You are welcome!')
+        break
+            case 'taken':
+            alert ('Waaaa, ga tanggung jawab')
+        break
+            case 'complicated':
+            status == prompt ('gaboleh, coba lagi! Status kamu single/taken?')
+        }
+        console.log('Status : ' + status)
+
+        if (usia>=0 && usia <= 18){
+            console.log('Biaya membership kamu gratis!')
+            alert ('Biaya membership kamu gratis!')
+        }else if (usia >= 19 && usia <= 25){
+            console.log('Biaya membership kamu adalah Rp 50.000')
+            alert('Biaya membership kamu adalah Rp 50.000')
+        }else if (usia>= 26 && usia <=40){
+            biaya =  ('Biaya membership kamu gratis!')
+            alert ('Biaya membership kamu gratis!')
+        }else {console.log('Gausah bayar, kita kasih Rp 100.000!')
+            alert ('Gausah bayar, kita kasih Rp 100.000!')
+         }
+        
+
+
+        // console.log('Nama: ' + nama);
+        // console.log('Usia : ' + usia);
+        // console.log('Level : ' + level);
+        // console.log('Profesi: ' + profesi);
+
+        // Manggil script JS ke html
+        // <scr src="./solveit.js"
+
+        // ************************Tugas no.2*************************************
+        // var angka = prompt ('Silahkan masukkan angka berapapun :');
+        // var angkakuadrat = Math.pow(angka,2)    
+        // console.log ('Kuadrat dari' + ' ' + angka + ' =' + (Math.pow((angka),2)));
+        // var hasil = alert ('Kuadrat dari '+ angka + ' =' + (Math.pow((angka),2)))
+        // alert('Thank You')
+        
+        // // ***************************Tugas No 9*************************************
+        // // //Aplikasi random angka 1-100
+        // var angka = (Math.random() * 100)
+        // var hasilAngka = Math.floor(angka) + 1
+        // console.log('Angka anda: ' + hasilAngka)
+        // var hasil = alert ('Angka anda: ' + hasilAngka)
+        
+        </script>
+    </head>
+    <body>
+        
+    </body>
+
+</html>

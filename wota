@@ -1,0 +1,23 @@
+WOTACLUB
+
+1. Input :
+    - nama
+    - usia
+    - level (1 - 7)
+
+2. Jika level selain 1 sampai 7 akan diminta input data
+    - alert , level hanya 1 - 7
+    - di minta input ulang
+
+3. Input status (single / taken / complicated)
+    - jika status complicated, isi ulang kembali
+    - jika single , alert 'You are very welcome'
+        - Infokan biaya
+    - jika taken, alert 'Kami tidak menanggung resikonya'
+        - Infokan biaya
+
+4. Print biaya yang harus dibayar (console / alert)
+    0 - 18 : Gratis
+    19 - 25 : 50000
+    26 - 40 : Gratis
+    > 41 : Kasih uang 100000

@@ -1,0 +1,10 @@
+list function yang sudah diajarin:
+console.log : fungsi print
+syntax = console.log()
+
+var : fungsi memasukkan nilai
+syntax = var nama = nilai
+
+create form dengan isian
+nama
+umur

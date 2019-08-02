@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="UTF 8">
+    <script>
+    
+    // declare list hewan
+    var listHewan = [
+        {id:1, nama: "ace", umur: 3},
+        {id:2, nama: "boi", umur: 4},
+        {id:3, nama: "cea", umur: 5},
+    ]
+    var login = prompt('Selamat datang di portal bonbin. Masukan username anda.\n1. Admin\n2.Boss').toLowerCase()
+    console.log(login)
+
+    var adminMenu = parseInt(prompt('Selamat datang Admin\n Menu :\n 1. List Hewan\n2.Tambah Hewan\n3.Exit'))
+    var bossMenu = ('Selamat datang Boss\n Menu :\n 1. List Hewan\n2.Tambah Hewan\n3. Edit Hewan\n4. Delete Hewan\n5.Exit')
+    
+    while (login == 'admin'){
+        while (adminMenu == 1 ){
+            alert(listHewan),
+            console.log(listHewan)
+           
+        }
+        while (adminMenu == 2){
+            var idBaru = parseInt(prompt('Masukan ID hewan'))
+            var namaBaru = prompt('Masukkan nama hewan')
+            var ageBaru = parseInt(prompt('Masukkan umur hewan'))
+            var hewanBaru = [{id:idBaru, nama:namaBaru, umur:ageBaru}]
+            var confirmAdd = 'tambah' + hewanBaru + 'kedalam list?'
+            
+                if (confirmAdd = true){
+                    listHewan.unshift(hewanBaru)
+                    alert(listHewan)
+                }
+        }
+        while (adminMenu == 3){
+            parseInt(login)
+        }
+    }
+
+
+    while (login == 'boss'){
+        while(bossMenu == 1){
+            alert(listHewan)
+            console.log(listHewan)
+        }
+        while (adminMenu == 2){
+            var idBaru = parseInt(prompt('Masukan ID hewan'))
+            var namaBaru = prompt('Masukkan nama hewan').tolowerCase()
+            var ageBaru = parseInt(prompt('Masukkan umur hewan'))
+            var hewanBaru = [{id:idBaru, nama:namaBaru, umur:ageBaru}]
+            var confirm
+                if (confirm = true){
+                    listHewan.unshift(hewanBaru)
+                    alert(listHewan)
+                }
+    }
+}
+    
+    
+    
+    </script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </head>
+    <body>
+
+
+    </body>
+
+</html>

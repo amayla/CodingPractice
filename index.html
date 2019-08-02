@@ -1,0 +1,57 @@
+<!-- <script>
+    document.write('Hello World')
+</script> -->
+
+<!-- memberi tahu browser versi html yang digunakan, HTML 5 -->
+<!-- untuk menulis komen, tekan CTRL + / -->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Hi There! </title>
+        <meta charset="UTF 8">
+        <!-- tag khusus kode javascript -->
+        <!-- Copy line script sebelumnya: press shift + Option +Arrow down -->
+        <script>
+        var nama = prompt('Silakan ketik nama Anda:');
+        var eng = prompt('Masukkan nilai B. Inggris Anda:');
+        var indo = prompt('Masukkan nilai B. Indonesia Anda:');
+        var math = prompt('Masukkan nilai Matematika Anda:');
+        var ipa = prompt('Masukkan nilai IPA Anda:');
+        let eng1 = parseInt (eng)
+        let indo1 = parseInt (indo)
+        let math1 = parseInt (math)
+        let ipa1 = parseInt (ipa)
+
+        var nilaiTotal = eng1 + indo1 + math1 + ipa1
+        var rerata = nilaiTotal / 4
+        let rerata1 = parseInt (rerata)
+        var indexNilai, lulus, greet
+        console.log('Nama: ' + nama);
+        // console.log('Nilai Total: ' + rerata);
+        if (rerata1 > 85):{
+            indexNilai = 'A')
+            lulus = true
+        } else if (rerata1 > 75 && rerata1 < 84):
+            indexNilai ='B')
+            lulus = true
+        } else if (rerata1 > 66 && rerata1 < 75) :{
+            indexNilai ='C')
+            lulus = true
+        } else if (rerata1 > 50 && rerata1 < 65) :{
+            indexNilai ='D')
+            lulus = false
+        } else :{
+            indexNilai ='E')
+            lulus = false
+        }
+
+      
+
+
+        </script>
+    </head>
+    <body>
+        
+    </body>
+
+</html>
